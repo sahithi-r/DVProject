@@ -8,5 +8,9 @@ document.addEventListener('DOMContentLoaded', function () {
         div1.classList.toggle('active');
         div2.classList.toggle('active');
     });
+    // Change the button text based on the active content
+        const buttonText = div1.classList.contains('active') ? 'Bowling' : 'Batting';
+        toggleButton.textContent = buttonText;
+    });
 });
 
