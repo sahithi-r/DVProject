@@ -5,17 +5,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
     toggleButton.addEventListener('click', function () {
         // Toggle the 'active' class on div1 and div2
-        div1.classList.toggle('active');
-        div2.classList.toggle('active');
+        div1.classList.toggle('at');
+        div2.classList.toggle('at');
     
 // Change the button text based on the active content
-    const buttonText = div1.classList.contains('active') ? 'Bowling' : 'Batting';
+    const buttonText = div1.classList.contains('at') ? 'Bowling' : 'Batting';
     toggleButton.textContent = buttonText;
 
-        if (div1.classList.contains('active')) {
-            div2.classList.remove('active');
+        if (div1.classList.contains('at')) {
+            div2.classList.remove('at');
         } else {
-            div1.classList.remove('active');
+            div1.classList.remove('at');
         }
 });
 });
