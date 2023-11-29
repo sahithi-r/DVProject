@@ -11,5 +11,11 @@ document.addEventListener('DOMContentLoaded', function () {
 // Change the button text based on the active content
     const buttonText = div1.classList.contains('active') ? 'Bowling' : 'Batting';
     toggleButton.textContent = buttonText;
+
+        if (div1.classList.contains('active')) {
+            div2.classList.remove('active');
+        } else {
+            div1.classList.remove('active');
+        }
 });
 });
