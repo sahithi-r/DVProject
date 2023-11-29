@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const toggleButton = document.getElementById('toggleButton');
+    const toggleButton = document.getElementById('toggleSwitch');
     const div1 = document.getElementById('div1');
     const div2 = document.getElementById('div2');
 
