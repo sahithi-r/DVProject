@@ -8,9 +8,13 @@ body {
 header {
     background-color: #3498db; /* Choose a blue color for your header background */
     padding: 20px 0; /* Adjust the padding as needed */
+    height: 1.5in; /* Set the fixed height of the header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically within the container */
 }
 
 .header-container {
+    width: 100%;
     max-width: 1200px; /* Set a maximum width for the header container */
     margin: 0 auto; /* Center the header container */
     display: flex; /* Use flexbox for layout */
