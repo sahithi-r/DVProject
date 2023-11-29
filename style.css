@@ -106,3 +106,9 @@ input:checked + .slider:before {
 .toggle-text {
     margin: 0 10px;
 }
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+}
