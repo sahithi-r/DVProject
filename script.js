@@ -12,4 +12,4 @@ document.addEventListener('DOMContentLoaded', function () {
     const buttonText = div1.classList.contains('active') ? 'Bowling' : 'Batting';
     toggleButton.textContent = buttonText;
 });
-
+});
