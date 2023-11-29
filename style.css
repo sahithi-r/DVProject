@@ -103,3 +103,6 @@ input:checked + .slider:before {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
+.toggle-text {
+    margin: 0 10px;
+}
