@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #263144; /* Dark blue color */
 }
 
 ul {
@@ -29,9 +29,15 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #ffcc29; /* Yellow color on hover */
 }
 
 .content {
     padding: 20px;
+    background-color: #f4f4f4; /* Light gray background color for content */
+    color: #263144; /* Dark blue text color */
+}
+
+h1, h2, h3 {
+    color: #ffcc29; /* Yellow color for heading text */
 }
