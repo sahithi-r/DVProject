@@ -8,26 +8,29 @@ body {
 header {
     background-color: #3498db; /* Choose a blue color for your header background */
     padding: 20px 0; /* Adjust the padding as needed */
-    height: 1.5in; /* Set the fixed height of the header */
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically within the container */
+    height: 1.5in; /*Set the fixed height of the header */
+    display: flex; /*Use flexbox for layout
+    /* align-items: center; Center items vertically within the container */
 }
 
 .header-container {
     width: 100%;
     max-width: 1200px; /* Set a maximum width for the header container */
-    margin: 0 auto; /* Center the header container */
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically within the container */
+    /* margin: 0 auto; Center the header container */
+    /* display: flex; Use flexbox for layout */
+    /* align-items: center; Center items vertically within the container */
 }
 
 .logo {
     max-width: 100%; /* Ensure the image doesn't exceed the container width */
-    margin-right: 20px; /* Add margin to separate the logo from other content */
+    /* margin-right: 20px; Add margin to separate the logo from other content */
+    max-height: 100%;
+    /* height: 10%; */
 }
 
 nav {
     background-color: #263144; /* Dark blue color */
+    width: 100%;
 }
 
 ul {
@@ -35,6 +38,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute items evenly */
 }
 
 li {
@@ -47,6 +52,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 li a:hover {
